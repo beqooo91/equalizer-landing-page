@@ -1,0 +1,483 @@
+/* design for mobile */
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 5px -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: relative;
+    width: 375px;
+    height: 1945px;
+}
+
+.img-logo {
+    height: 32px;
+    width: 146.09px;
+    margin-top: 39.99px; 
+    margin-left: 24.15px;   
+    margin-bottom: 64.01px;
+}
+
+.header {
+    height: 144px;
+    width: 327px;
+    margin: 0px 24px 0px 24px;    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    color: #191826;
+}
+
+.first-par {
+    height: 156px;
+    width: 327px;
+    margin-left: 24px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.div-child {
+    position: relative;
+    height: 600px;
+    width: 375px;
+    border-radius: 12px;
+    background: #191826;
+    border-radius: 12px;
+    margin-top: 166px;
+    margin-bottom: 389.99px;
+}
+
+.img-pattern-2 {
+    height: 420px;
+    width: 280px;
+    margin-left: 48px;
+}
+
+.img-phone {
+    position: absolute;
+    height: 430px;
+    width: 208.97px;
+    top: -100px;
+    left: 80.67px;
+}
+
+.div-child-in {
+    position: absolute;
+    height: 546px;
+    width: 375px;
+    border-radius: 12px;
+    background: #FA7453;
+    margin-top: -44px;
+}
+
+.header-EQ {
+    height: 40px;
+    width: 302px;
+    margin-left: 36px;
+    margin-top: 48px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+}
+
+.second-par {
+    height: 140px;
+    width: 302px;
+    margin: 0px 0px 36px 36px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+
+.div-value {
+    display: flex;   
+    align-items: center ;
+    margin-left: 42px;
+}
+
+.value {
+    height: 52px;
+    width: 79px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin: 0px;
+}
+
+.month {
+    height: 32px;
+    width: 70px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+    margin: 0px 0px 0px 16px;
+}
+
+.button-iOS {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    width: 296px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    margin-left: 42px;
+    background: #191826;
+    border-radius: 12px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.img-iOS {
+    margin-right: 7.92px;
+}
+
+.button-android {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    width: 296px;
+    margin-left: 42px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+.img-android {
+    margin-right: 7.8px;
+}
+
+footer {
+    width: 375px;
+}
+
+.logo-footer {
+    height: 32px;
+    width: 146.09px;
+    margin-left: 25.15px;
+    margin-bottom: 32.01px;
+}
+
+.text-footer {
+    height: 105px;
+    width: 298px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin: 0px 0px 0px 24px
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+@media (max-width: 414px) {
+
+    .img-pattern-1 {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+/* design for tablet */
+
+@media (min-width: 414px) {
+
+    body {
+        background: url(./assets/bg-main-tablet.png);
+        background-repeat: no-repeat; 
+        background-position: 5px -250px;
+    }
+
+    .main-div {       
+        overflow: hidden;
+        width: 768px;
+    }
+
+    section {
+        position: absolute;
+    }
+
+    .img-logo {        
+        margin-left: 39.15px;
+        margin-top: 61.99px;
+        margin-bottom: 0px;
+    }
+    
+    .header {
+        width: 520px;
+        height: 192px;
+        margin-left: 39px;
+        margin-top: 95.01px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.72px;
+    }
+
+    .first-par {
+        width: 514px;
+        height: 112px;
+        margin-top: 28px;
+        margin-left: 39px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #191826;
+    }
+
+    .img-pattern-1 {
+        height: 400px;
+        width: 266.66px;
+        margin-top: -32px;
+        margin-left: 537px;
+    }
+
+    .div-child {
+        width: 696px;
+        height: 600px;
+        margin-left: 33px;
+        margin-top: 402px;
+        margin-bottom: 182.99px;
+    }
+
+    .img-pattern-2 {
+        width: 280px;
+        height: 420px;
+        margin-left: 229px;
+        margin-top: -31px;
+    }
+
+    .img-phone {
+        width: 270.21px;
+        height: 556px;
+        left: 64px;
+        top: -138px;
+    }
+
+    .div-child-in {
+        width: 399px;
+        left: 239px;
+        top: 194px;
+    }
+
+    .header-EQ {
+        margin-left: 48px;
+        margin-bottom: 12px;
+    }
+
+    .second-par {
+        margin-left: 48px;
+    }
+
+    .div-value {
+        margin-left: 54px;
+    } 
+    
+    .button-iOS {
+        margin-left: 54px;
+        margin-bottom: 16px;
+    }
+
+    .button-android {
+        margin-left: 54px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-footer {
+        margin-left: 34.15px;
+    }
+
+    .text-footer {
+        height: 79px;
+        width: 366px;
+        margin-left: 33px;
+    }
+
+    .icons { 
+        margin-left: 230px;       
+    } 
+}
+
+@media (max-width: 768px) {
+    .child-footer {
+        flex-direction: column;
+    }
+}
+
+/* design for desktop */
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(./assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: -250px -280px;        
+    }
+
+    .main-div {
+        width: 1440px;
+    }
+
+    .img-logo {
+        margin-left: 166.15px;
+    }
+
+    .header {
+        width: 1015px;
+        height: 176px;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        margin-left: 165px;
+        margin-top: 127.01px;
+    }
+
+    .first-par {
+        height: 102px;
+        width: 825px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 40px;
+        margin-left: 164.5px;
+    }
+
+    .img-pattern-1 {
+        height: 468px;
+        width: 312px;
+        margin-left: 1128px;
+        margin-top: -40px;
+    }
+
+    .div-child {
+        height: 600px;
+        width: 1110px;
+        margin-left: 165px;
+        margin-top: 432px;
+        margin-bottom: 201.99px;
+    }
+
+    .img-pattern-2 {
+        height: 468px;
+        width: 312px;
+        margin-left: 336px;
+        margin-top: -40px;
+    }
+
+    .img-phone {
+        height: 642px;
+        width: 312px;
+        left: 102px;
+        top: -213px;
+    }
+
+    .div-child-in {
+        height: 625px;
+        width: 446px;
+        margin-top: 90px;
+        left: 569px;
+        top: 0px;
+    }
+
+    .header-EQ {
+        height: 52px;
+        font-size: 40px;
+        line-height: 52px;
+        margin: 58px 59px 22px 54px;
+    }
+
+    .second-par {
+        width: 333px;
+        height: 170px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 54px;
+        margin-bottom: 39px;
+    }
+
+    .button-iOS {
+        width: 333px;
+        margin-top: 46px;
+    }
+
+    .button-iOS:hover {
+        cursor: pointer;
+        background: #66E2DC;
+    }
+
+    .button-android {
+        width: 333px;
+    }
+
+    .button-android:hover {
+        cursor: pointer;
+        background: #FFB964;
+    }
+
+    footer {
+    }
+
+    .child-footer {
+        display: flex;
+    }
+
+    .logo-footer {
+        margin-left: 166.15px;
+    }
+
+    .text-footer {
+        margin-left: 137.76px;
+    }
+
+    .icons {
+        margin: 0px 0px 0px 359px;
+    }
+}
+
+
+
+
+
+
+
